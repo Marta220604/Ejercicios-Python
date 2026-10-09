@@ -4,10 +4,8 @@
 #1. Limpiar
 #2. Comprar Comida
 #3. Salir
+
 lista_tareas = ["Limpiar", "Comprar comida", "Salir"]
 
-numero = 1
-
-for tarea in lista_tareas:
-    print(numero, ". ", tarea)
-    numero += 1
+for indice in range(len(lista_tareas)):
+    print(indice + 1, ". ", lista_tareas[indice])
